@@ -6,5 +6,5 @@ OBJ = olamundo.o olafunc.o
 %.o: %.c $(DEPS)
 	$(CC) $< $(CFLAGS) -c -o $@
 
-hellomake: olamundo.o olafunc.o
-	$(CC) -o olamundo olamundo.o olafunc.o $(CCFLAGS)
+olamundo: $(OBJ)
+	$(CC) $(CCFLAGS) -o $@ $^
