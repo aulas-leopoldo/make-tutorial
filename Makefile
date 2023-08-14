@@ -20,3 +20,6 @@ ola:
 
 teste: teste.c
 	gcc teste.c -o teste
+
+clean: 
+	rm -f teste $(OBJ) olamundo
