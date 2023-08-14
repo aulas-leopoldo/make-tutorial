@@ -2,6 +2,6 @@
 #include "olamundo.h"
 
 void printOlaMundo(void) { 
-    printf("Olá mundo, esta versão é diferente!\n");
+    printf("Olá mundo, esta versão é ainda mais diferente!\n");
     return;
 }
